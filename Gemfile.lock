@@ -1,23 +1,30 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    metaclass (0.0.4)
-    mocha (1.1.0)
-      metaclass (~> 0.0.1)
-    power_assert (0.2.7)
+    diff-lcs (1.3)
     rake (10.5.0)
     require_all (1.3.3)
-    test-unit (3.1.7)
-      power_assert
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  mocha
   rake
   require_all
-  test-unit
+  rspec
 
 BUNDLED WITH
-   1.10.6
+   1.16.4
