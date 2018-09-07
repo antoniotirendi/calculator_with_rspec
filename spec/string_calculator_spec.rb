@@ -19,5 +19,11 @@ describe StringCalculator do
         expect(StringCalculator.add('4,2')).to eql(6)
       end
     end
+
+    context 'given more than two numbers' do
+      it 'returns sum of all numbers' do
+        expect(StringCalculator.add('4,2,5')).to eql(11)
+      end
+    end
   end
 end
